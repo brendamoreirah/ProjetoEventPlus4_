@@ -1,0 +1,362 @@
+.home-banner img {
+  width: 100%;
+}
+
+.home-eventos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  height: 560px;
+  margin-top: -40px;
+}
+
+
+/*********** teste ***********/
+
+.evento-card .evento-titulo{
+  font-size: 16px;
+  color: #2ACDCD;
+}
+
+.evento-card .evento-descricao{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.evento-container{
+  display: flex;
+}
+
+/*********** teste ***********/
+
+
+.contato-container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloHome hr{
+  max-width: 200px;
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2ACDCD;
+}
+
+
+.home-eventos h2{
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  margin-top: -30px;
+}
+
+.home-eventos hr {
+  max-width: 200px;
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 50px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2ACDCD;
+  border-radius: 10px;
+  }
+
+
+
+.home-visao img{
+ width: 100%;
+ height: 458px;
+}
+
+.imagem-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.imagem-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.textoDaImagem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 80%;
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px;
+}
+
+.textoDaImagem h2{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.textoDaImagem hr{
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2ACDCD;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 310px;
+  margin-bottom: 60px;
+
+}
+
+/***************** ultimo *****************/
+
+.home-contato{
+ height: 470px;
+}
+
+
+.tituloHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloHome h2{
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 25px;
+  color: white;
+}
+
+.tituloHome hr{
+  width: 120px;
+}
+
+.contato-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+}
+
+.home-layout{
+    background-color: #1B1B1B;
+}
+
+.contato-container .contato-mapa{
+  margin-right: 100px;
+}
+
+.contato-container .contato-info{
+  color: white;
+  line-height: 3;
+  margin-bottom: 90px;
+}
+
+.evento-card {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  height: 250px;
+  width: 225px;
+  margin: 15px;
+  border: 2px solid #2ACDCD;
+  font-size: small;
+  border-radius: 5px;
+}
+
+.evento-link {
+  color: #2ACDCD;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+  
+  .evento-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .evento-card {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .evento-card .evento-titulo {
+    font-size: 18px;
+  }
+
+  .evento-card .evento-descricao {
+    font-size: 14px;
+  }
+
+  
+  .contato-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .contato-container .contato-mapa {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contato-container .contato-info {
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+
+  
+  .textoDaImagem {
+    max-width: 95%;
+    padding: 10px;
+    margin-top: 0px;
+  }
+
+  .textoDaImagem h2 {
+    font-size: 16px;
+  }
+
+  .textoDaImagem p {
+    font-size: 9px;
+    
+  }
+
+
+  .textoDaImagem hr {
+    margin: 10px auto 40px auto;
+    margin-bottom: 14px;
+  }
+
+
+  .home-visao img {
+    height: auto;
+  }
+
+
+  .home-eventos {
+    height: auto;
+    padding-bottom: 30px;
+    margin-top: 25px;
+  }
+
+  .home-contato {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  /* Ajusta título da seção */
+  .home-eventos h2,
+  .tituloHome h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .evento-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .evento-card {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .evento-card .evento-titulo {
+    font-size: 18px;
+  }
+
+  .evento-card .evento-descricao {
+    font-size: 14px;
+  }
+
+  .contato-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .contato-container .contato-mapa {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contato-container .contato-info {
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+
+  .textoDaImagem {
+    max-width: 95%;
+    padding: 10px;
+    margin-top: 0px;
+  }
+
+  .textoDaImagem h2 {
+    font-size: 16px;
+  }
+
+  .textoDaImagem p {
+    font-size: 9px;
+  }
+
+  .textoDaImagem hr {
+    margin: 10px auto 40px auto;
+    margin-bottom: 14px;
+  }
+
+  .home-visao img {
+    height: auto;
+  }
+
+  .home-eventos {
+    height: auto;
+    padding-bottom: 30px;
+    margin-top: 25px;
+  }
+
+  .home-contato {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .home-eventos h2,
+  .tituloHome h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}

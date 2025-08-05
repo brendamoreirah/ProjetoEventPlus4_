@@ -1,0 +1,260 @@
+.select_evento {
+  background-color: transparent;
+  color: #2ACDCD; 
+  border: none;
+  border-bottom: 2px solid #2ACDCD; 
+  padding: 10px 40px 10px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  max-width: 350px;
+  position: relative;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%232ACDCD' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 24px;
+  cursor: pointer;
+}
+
+
+.org_select_listagemEvento{
+    display: flex;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.layout_grid{
+  width: 100%;
+  height: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.listagem_evento{
+   min-height: 100vh; 
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+
+    background-color: #1B1B1B;
+    color: white;
+}
+
+.listagem_evento h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 19px;
+
+}
+
+.listagem_evento hr {
+    max-width: 200px;
+    width: 100%;
+    border-style: solid;
+    border-top-width: 1px;
+    border-color: #2ACDCD;
+    margin-top: 5px;
+    color: white;
+    
+}
+
+.tabela_evento {
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+
+.tabela_evento .table_evento :first-child {
+    width: 300px;
+    padding: 15px;
+}
+
+.tabela_evento .table_evento :nth-child(2) {
+    width: 240px;
+    text-align: start;
+}
+
+.tabela_evento .table_evento :nth-child(3) {
+    width: 150px;
+    text-align: center;
+}
+
+.tabela_evento .table_evento :nth-child(4) {
+    width: 150px;
+    text-align: center;
+}
+
+.tabela_evento .table_evento :nth-child(5) {
+    width: 150px;
+    text-align: center;
+}
+
+.tabela_evento .table_evento th {
+    border-bottom: 2px solid #2ACDCD;
+    width: 100px;
+    margin-top: 40px;
+}
+
+
+.tabela_evento {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-height: 80vh;
+}
+
+.item_evento td {
+    padding: 30px 5px 30px;
+    border-bottom: #FFFFFF 1px solid;
+ 
+}
+
+.tabela_evento .item_evento :nth-child(2){
+    text-align: start;
+}
+
+tbody button{
+    background-color: transparent;
+    border: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .tabela_evento table, 
+  .tabela_evento thead, 
+  .tabela_evento tbody, 
+  .tabela_evento th, 
+  .tabela_evento td, 
+  .tabela_evento tr {
+    display: block;
+    width: 100%;
+  }
+
+  .tabela_evento thead {
+    display: none;
+  }
+
+  .item_evento {
+    margin-bottom: 20px;
+    background-color: #2F2E41;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #2ACDCD;
+    background-image: url("../../assets/bannerTipoUsuario.png");
+         
+    background-repeat: no-repeat; 
+    background-position: center;  
+  }
+
+  .item_evento td {
+    text-align: left;
+    padding: 10px 0;
+    border: none;
+    position: relative;
+  }
+
+  .item_evento td::before {
+    content: attr(data-cell);
+    font-weight: bold;
+    color: #2ACDCD;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .select_evento {
+    width: 80%;
+    font-size: 16px;
+    padding: 20px 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+  }
+
+  .org_select_listagemEvento {
+    padding: 0 10px;
+    justify-content: center;
+  }
+
+  .listagem_evento {
+    padding: 20px 10px;
+  }
+
+  .tabela_evento {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .tabela_evento table, 
+  .tabela_evento thead, 
+  .tabela_evento tbody, 
+  .tabela_evento th, 
+  .tabela_evento td, 
+  .tabela_evento tr {
+    display: block;
+    width: 100%;
+  }
+
+  .tabela_evento thead {
+    display: none;
+  }
+
+  .item_evento {
+    margin-bottom: 20px;
+    background-color: #2F2E41;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #2ACDCD;
+    background-image: url("../../assets/bannerTipoUsuario.png");
+    background-repeat: no-repeat; 
+    background-position: center;  
+  }
+
+  .item_evento td {
+    text-align: left;
+    padding: 10px 0;
+    border: none;
+    position: relative;
+  }
+
+  .item_evento td::before {
+    content: attr(data-cell);
+    font-weight: bold;
+    color: #2ACDCD;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .select_evento {
+    width: 80%;
+    font-size: 16px;
+    padding: 20px 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .org_select_listagemEvento {
+    padding: 0 10px;
+    justify-content: center;
+  }
+
+  .listagem_evento {
+    padding: 20px 10px;
+  }
+
+  .tabela_evento {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
